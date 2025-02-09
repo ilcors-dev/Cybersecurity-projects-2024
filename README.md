@@ -69,11 +69,16 @@ We used the existing codebase from [DataBadSmells](https://github.com/DataBadSme
 1. Clone the repository
 2. Make sure you have Python3 installed (we tested on [Python 3.11](https://www.python.org/downloads/release/python-3110/))
 3. Navigate to the `code/` directory `cd code/`
-4. Install the requirements
+4. Activate a virtual environment (optional)
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+5. Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
-5. Run the jupyter notebook server by opening a terminal and typing:
+6. Run the jupyter notebook server with:
 ```bash
 jupyter notebook
 ```
