@@ -1,0 +1,1 @@
+{"CosineTest": {"Cosine Similarities": [0.78559381045579, 0.9856745549887558, 0.9845680752691933], "Cosine Weighted Average": 0.8844176204319573, "Largest Cluster Percentage": 0.5060321715817694, "Cutoff Percentages": {"1": 0.182, "2": 0.971, "3": 0.966}, "Cluster Sizes": [755, 724, 13]}}
