@@ -1,4 +1,4 @@
-****# The Best Network Traffic Dataset: A Comparative Analysis
+# The Best Network Traffic Dataset: A Comparative Analysis
 
 This repository contains the code, the paper, and the presentation of the research project on *"The Best Network Traffic Dataset: A Comparative Analysis"*.
 
