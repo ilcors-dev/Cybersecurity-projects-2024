@@ -1,4 +1,4 @@
-# The Best Network Traffic Dataset: A Comparative Analysis
+****# The Best Network Traffic Dataset: A Comparative Analysis
 
 This repository contains the code, the paper, and the presentation of the research project on *"The Best Network Traffic Dataset: A Comparative Analysis"*.
 
@@ -27,51 +27,53 @@ disadvantages for different operational scenarios.
 The repository is structured as follows:
 ```
 .
-├── DataBadSmells
-│   ├── metadata
-│   │   └── cic
-│   │       ├── metadata.json
-│   │       └── metadata_improved.json
-│   ├── scripts
-│   ├── src
-│   │   ├── __init__.py
-│   │   ├── data_manip.py
-│   │   ├── metrics.py
-│   │   ├── ml.py
-│   │   ├── netstats.py
-│   │   ├── tests.py
-│   │   └── utils.py
-│   ├── utils
-│   │   ├── mat_conv.py
-│   │   └── preprocess_ISCX.py
-│   ├── README.md
-│   └── requirements.txt
-├── data
-│   └── README.md
-├── results
-│   └── comparison.png
+├── code
+│   ├── DataBadSmells
+│   │   ├── metadata
+│   │   │   └── cic
+│   │   │       ├── metadata.json
+│   │   │       └── metadata_improved.json
+│   │   ├── scripts
+│   │   ├── src
+│   │   │   ├── __init__.py
+│   │   │   ├── data_manip.py
+│   │   │   ├── metrics.py
+│   │   │   ├── ml.py
+│   │   │   ├── netstats.py
+│   │   │   ├── tests.py
+│   │   │   └── utils.py
+│   │   ├── utils
+│   │   │   ├── mat_conv.py
+│   │   │   └── preprocess_ISCX.py
+│   │   ├── README.md
+│   │   └── requirements.txt
+│   ├── data
+│   │   └── README.md
+│   ├── results
+│   │   └── comparison.png
+│   ├── compare-results.ipynb
+│   ├── exploration.ipynb
+│   ├── requirements.txt
+│   └── run-benchmarks.ipynb
+├── PresentazioneCyber_Corsetti_Mancini_Mazziotti.pdf (presentation pdf)
+├── PresentazioneCyber_Corsetti_Mancini_Mazziotti.pptx (presentation pptx)
+├── The_Best_Network_Traffic_Dataset_A_Comparative_Analysis.pdf (report)
 ├── README.md
-├── compare-results.ipynb
-├── exploration.ipynb
-├── requirements.txt
-├── run-benchmarks.ipynb
-├── The_Best_Network_Traffic_Dataset_A_Comparative_Analysis.pdf
-├── PresentazioneCyber_Corsetti_Mancini_Mazziotti.pptx
-└── PresentazioneCyber_Corsetti_Mancini_Mazziotti.pdf
 ```
 
 ## Usage
 
-We used the existing codebase from [DataBadSmells](https://github.com/DataBadSmells/DataBadSmells) repository to run our tests on the CIC 17 original and improved datasets (links of the dataset to be found [here](./data/README.md)).
+We used the existing codebase from [DataBadSmells](https://github.com/DataBadSmells/DataBadSmells) repository to run our tests on the CIC 17 original and improved datasets (links of the dataset to be found [here](./code/data/README.md)).
 
 ### Pre-requisites
 1. Clone the repository
 2. Make sure you have Python3 installed (we tested on [Python 3.11](https://www.python.org/downloads/release/python-3110/))
-3. Install the requirements
+3. Navigate to the `code/` directory `cd code/`
+4. Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
-4. Run the jupyter notebook server by opening a terminal and typing:
+5. Run the jupyter notebook server by opening a terminal and typing:
 ```bash
 jupyter notebook
 ```
